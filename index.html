@@ -9,23 +9,38 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hack Reactor Study Guide</h1>
-    <nav>
-      <ul>
-        <li><a href="#start">Getting Started</a></li>
-        <li><a href="#learn">Learn</a></li>
-        <li><a href="#practice">Practice</a></li>
-        <li><a href="#tools">Tools</a></li>
-        <li><a href="#advice">Advice</a></li>
-      </ul>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-bar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>   
+          </button>
+          <a href="#start" class="navbar-brand">Hack Reactor Study Guide</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav-bar">
+          <ul class="nav navbar-nav">
+            <li><a href="#start">Getting Started</a></li>
+            <li><a href="#learn">Learn</a></li>
+            <li><a href="#practice">Practice</a></li>       
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#advice">Advice</a></li>
+          </ul>     
+        </div>
+      </div>
     </nav>
+    <div id="site">
     <div id="start">
+      <br><br>
       <h2>Getting Started</h2>
       <p>Welcome! This is meant to be a staging area for your fight to get into Hack Reactor. With links aplenty to valuable resources, it should prove to be invaluable in your quest. First off, this is a video meant to explain what exactly it means to want to learn to code by a guy who goes by the handle CheersKevin on Youtube.</p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/mvK0UzFNw1Q" frameborder="0" allowfullscreen></iframe>
     </div>
-    <hr>
+    <br>
     <div id="learn">
+      <hr><br>
       <h2>Learn</h2>
         <p>Placeholder: Info about this section</p>
         <h3>Command Line</h3>
@@ -36,35 +51,61 @@
               <p>Learn the command line the hard way. This book's primary goal is getting you proficient in the command line in a limited amount of time without holding your hand along the way.</p>
           </ul>
           <h4>Git</h4>
+            <p>Git is the most popular version control system. It is a way to track your progress through a project, and to have others collaborate with you.</p>
+            <ul>
+              <li><a href="https://github.com/">GitHub</a></li>
+                <p>The most popular web-based Git repository hosting service, and a great starting point.</p>
+              <li><a href="https://help.github.com/articles/good-resources-for-learning-git-and-github/">
+                GitHub - Good Resources for Learning Git and GitHub</a></li>
+                <p>A great list of other resources for learning Git and GitHub</p>
+              <li><a href="Try Git - Code School">Code School - Discover Git</a></li>
+              <p>A free 25 step course that puts you at the helm of Git through terminal commands.</p>
+            </ul>
         <h3>HTML/CSS</h3>
           <ul>
             <li><a href="https://www.codecademy.com/learn/web">HTML and CSS</a>: Code Academy</li>
               <p>Learn while doing with the basics of HTML and CSS. Don't get too attached to the training wheels that accompany these Codeacademy courses, as they will be gone when you get into the reality of programming.</p>
-            <li></li>
+            <li><a href="http://www.freecodecamp.com/">Free Code Camp</a></li>
+              <p>Much like the style of Codecademy, you learn by doing with their interactive online experience.</p>
           </ul>
           <h4>Bootstrap</h4>
+            <p>The most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</p>
+            <ul>
+              <li><a href="http://getbootstrap.com/getting-started/">Bootstrap Getting Started</a></li>
+                <p>Their own walkthrough getting started. Caution: May be a little intimidating if you are new to coding.</p>
+              <li><a href="http://www.freecodecamp.com/">Free Code Camp</a></li>
+                <p>Once again FreeCodeCamp is here for you with a follow along Bootstrap section.</p>
+              <li><a href="http://stackoverflow.com/tags/twitter-bootstrap/info">Stack Overflow - Bootstrap Resources</a></li>
+                <p>A great beginners Bootstrap resource</p>
+            </ul>
         <h3>JavaScript</h3>
           <ul>
-            <li><a href="https://www.codecademy.com/learn/javascript">Learn JavaScript</a>: Code Academy</li>
+            <li><a href="https://www.codecademy.com/learn/javascript">Learn JavaScript</a>: Codecademy</li>
               <p>Become familiar with the basics, by writing along with CodeAcademy</p>
             <li><a href="https://learnxinyminutes.com/docs/javascript/">Learn JavaScript in Y Minutes</a></li>
               <p>Learn JavaScript by reading through actual code with comments.</p>
             <li><a href="http://www.freecodecamp.com/">Free Code Camp</a></li>
               <p>Useful for getting a good base in all things JavaScript related, while also getting some experience solving problems on your own and creating your own projects.</p>
+            <li><a href="https://www.codeschool.com/learn/javascript"></a></li>
+              <p>Highly recommended by many alumni is the JavaScript Road Trip on Code School.</p>
             <li><a href="http://eloquentjavascript.net/">Eloquent JavaScript Book</a>: First 5 Chapters</li>
               <p>Great for helping you to understand the theory behind JavaScript. (More useful if you have some prior experience with JavaScript)</p>
+            <li><a href="http://javascriptissexy.com/">JavaScript.isSexy</a></li>
+              <p>Regarded as essential reading from most alumni. This is a vital resource for many things JavaScript.</p>
           </ul>
-          <h4>JQuery</h4>
+          <h4>jQuery</h4>
             <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
             <ul>
-              <li></li>
-              <li></li>
+              <li><a href="http://learn.jquery.com/jquery-ui/getting-started/">Getting Started with jQuery UI</li>
+              <li><a href="https://oscarotero.com/jquery/">Quick API Reference</a></li>
+                <p>Invaluable resource on jQuery syntax lines.</p>
             </ul>
     </div>
-    <hr>
+    <br>
     <div id="practice">
+      <hr><br>
       <h2>Practice</h2>
-        <p>Placeholder: Info about this section</p>
+        <p>Some links to great places to test your skills via challenges and/or fun games.</p>
         <h3>Coding Challenges</h3>
           <ol>
             <li><a href="https://coderbyte.com/">coderbyte</a></li>
@@ -84,8 +125,9 @@
             <li><a href="https://www.codeavengers.com/">Code Avengers</a></li>
           </ol>
     </div>
-    <hr>
+    <br>
     <div id="tools">
+      <hr><br>
       <h2>Tools</h2>
         <p>Placeholder: Info about this section</p>
         <h3>Programming-Specific Text Editors: Choose your Weapon</h3>
@@ -123,11 +165,23 @@
                 <p>Node is a way to run JavaScript code outside of a web browser, while NPM is just a package manager for JavaScript programs and comes bundled along with the node download.<br>Again, you can also just install node using Homebrew by running the command |brew install node| in the terminal. (Mac only)</p>
             </ul>
     </div>
-    <hr>
+    <br>
     <div id="advice">
+    <hr><br>
       <h2>Advice</h2>
-        <p>Placeholder: Info about this section</p>
+        <p>A few blogs from alumni about their experiences and insights into your preparation.</p>
+        <ul>
+          <li><a href="http://www.bthehuman.com/journey-to-hack-reactor/">BtheHUMAN - Journey to Hack Reactor</a></li>
+          <li><a href="http://www.youhavetolearncomputers.com/blog/2015/3/14/javascript-learnings-from-0-to-hack-reactor-in-5-months">
+            JavaScript Learnings: From Zero to Hack Reactor in 5 months</a></li>
+          <li><a href="http://richardkho.com/choosing-hack-reactor/">Richard Kho - How I ended up at Hack Reactor></a></li>
+          <li><a href="http://arturmeyster.com/hack-reactor-interview/#.VuTnMJMrJE5">Artur Meyster - Hack Reactor Interview Process and Preparation Tips</a></li>
+          <li><a href="http://claytonschneider.com/getting-into-hack-reactor/">Clayton Schneider - Getting Into Hack Reactor</a></li>
+        </ul>
     </div>
-    <hr>
+    <br><hr>
+    </div>
+  <script src="https://code.jquery.com/jquery-2.2.1.js" integrity="sha256-eNcUzO3jsv0XlJLveFEkbB8bA7/CroNpNVk3XpmnwHc=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>  
   </body>
 </html>
