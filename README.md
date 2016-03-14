@@ -1,2 +1,2 @@
 # hr-remote-prep-manual
-Everything you will need for a successful journey through Hack Reactor Remote Prep
+Everything you will need to prepare for Hack Reactor
