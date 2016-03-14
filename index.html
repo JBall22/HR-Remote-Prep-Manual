@@ -3,14 +3,13 @@
   <head>
     <title>Hack Reactor Study Guide</title>
     <meta charset="utf-8">
-    <link href="style.css" rel="stylesheet">
     <script src="script.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
   </head>
-
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top mainmenu">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-bar" aria-expanded="false">
@@ -24,6 +23,7 @@
         <div class="collapse navbar-collapse" id="main-nav-bar">
           <ul class="nav navbar-nav">
             <li><a href="#start">Getting Started</a></li>
+            <li><a href="#hr">Hack Reactor</a></li>
             <li><a href="#learn">Learn</a></li>
             <li><a href="#practice">Practice</a></li>
             <li><a href="#tools">Tools</a></li>
@@ -34,20 +34,47 @@
     </nav>
 
     <div id="site">
-    <div id="start">
+    <div id="start" align="center">
       <br><br>
       <h2>Getting Started</h2>
-      <p>Welcome! This is meant to be a staging area for your fight to get into Hack Reactor. With links aplenty to valuable resources, it should prove to be invaluable in your quest. First off, this is a video meant to explain what exactly it means to want to learn to code by a guy who goes by the handle CheersKevin on Youtube.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/mvK0UzFNw1Q" frameborder="0" allowfullscreen></iframe>
+      <p><strong>Welcome!</strong> This is meant to be a staging area for your fight to get into Hack Reactor. With links aplenty to valuable resources, it should prove to be invaluable in your quest. First off, this is a video meant to explain what exactly it means to want to learn to code by a guy who goes by the handle CheersKevin on Youtube.</p>
+      <iframe id="intro" width="560" height="315" src="https://www.youtube.com/embed/mvK0UzFNw1Q" frameborder="0" allowfullscreen></iframe>
     </div>
     <br>
+    <div id="hr">
+      <hr><br>
+      <h2>What is Hack Reactor?</h2>
+        <p>Hack Reactor, <em>in their own words</em>, is: "Not your typical programming, coding or development bootcamp, Hack Reactor is an elite software career accelerator with unmatched results."</p>
+        </p>Their goal: "You’ll begin Hack Reactor with a feeling of excitement and anticipation. Twelve weeks later, you’ll follow the footsteps of our trailblazing alumni, taking the methodologies and best practices you perfected at our coding bootcamp to your next job. We’ve built world class software engineering curriculum and programming courses. However, Hack Reactor is, above all else, a world-class learning environment."</p>
+        <p>Our goal: To provide information that you can use to prepare yourself for the application, interview, and main course of Hack Reactor. For more information on the school itself check out the following links.</p>
+        <br>
+        <div class="container" align="center">
+          <div class="row">
+            <div class="col-sm-6"><a href="http://www.hackreactor.com/"><img src="https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/2465/assets/img/hack-reactor-logo.png" height="100px" width="380px"></a>
+            </div>
+            <div class="col-sm-6"><a href="http://reactorcore.com/"><img src="https://cmp-logo-cdn2.smartrecruiters.com/52d5da79e4b006e797cf7de6/huge?_1454375337062" height="100px" width="290px"></a>
+            </div>
+          </div>
+        </div>
+        <br>
+        <h3>Hack Reactor Prep Courses</h3>
+        <p>Hack Reactor does offer their own prepratory classes. These are paid classes, though you have the option of putting the admission fees towards the full immersive programs if you choose to attend any of their courses.</p>
+        <ul>
+          <li>For beginners to coding there is <a href="http://www.eventbrite.com/o/hack-reactor-remote-beta-8260605281">Hack Reactor Remote Prep.</a></li>
+          <p>The course mixes lectures with solo coding and pair programming. This gives students a guided experience that allows them to establish an understanding of fundamentals through experience and by learning from each other. Pair programming has the added benefit of teaching students to communicate about code, which is a key skill in the professional world. Instructors circulate among students throughout the coding portions of the class to help students out of ruts and to iron out concepts. Class sizes are limited to 20 to allow for plenty of individual instruction.</p>
+          <li>For more advanced users there is <a href="http://fulcrum.reactorcore.com/now/">Fulcrum.</a></li>
+          <p>Fulcrum is the most comprehensive self-learning curriculum on JavaScript development, containing over 100 hours of material.</p>
+        </ul>
 
+    </div>
+    <br>
     <div id="learn">
       <hr><br>
       <h2>Learn</h2>
         <p>Whether it be learning the basics, understanding the theory behind it, or getting a functional working knowledge of different technology types, this section should cover you. Provides a variety of options for you to choose from based on what you want to learn and what style of learning works best for you.</p>
 
         <h3>Command Line</h3>
+        <p>Ever used your terminal before? Well get ready to!</p>
           <ul>
             <li><a href="https://www.codecademy.com/learn/learn-the-command-line">Codecademy: Learn the Command Line</a></li>
               <p>Gets you learning and trying out the basics of the command line.</p>
@@ -67,6 +94,7 @@
             </ul>
 
         <h3>HTML/CSS</h3>
+        <p>The nouns and adjectives of the web!</p>
           <ul>
             <li><a href="https://www.codecademy.com/learn/web">Codecademy: HTML and CSS</a></li>
               <p>Learn while doing with the basics of HTML and CSS. Don't get too attached to the training wheels that accompany these Codeacademy courses, as they will be gone when you get into the reality of programming.</p>
@@ -87,6 +115,7 @@
             </ul>
 
         <h3>JavaScript</h3>
+        <p>Time for some verbs.</p>
           <ul>
             <li><a href="https://www.codecademy.com/learn/javascript">Codecademy: Learn JavaScript</a></li>
               <p>Become familiar with the basics, by writing along with Codecademy</p>
@@ -179,9 +208,9 @@
         <h3>Accounts, Programs, and Plugins</h3>
           <h4><a href="https://github.com/">Github</a></h4>
             <p>Github is a website that allows you to easily share git repositories. Creating an account is important as it can serve as a portfolio and store all your projects, while letting you work on them together with others as well. </p>
-          <h4><a href="https://developer.xamarin.com/guides/testcloud/calabash/configuring/osx/install-xcode-command-line-tools/">XCode Command Line Tools</a> (Mac only)</h4>
+          <h4><a href="https://developer.xamarin.com/guides/testcloud/calabash/configuring/osx/install-xcode-command-line-tools/">XCode Command Line Tools</a> (<em>Mac</em> only)</h4>
             <p>This is a requirement for many common programming tools.</p>
-          <h4><a href="http://brew.sh/">Homebrew</a> (Mac only)</h4>
+          <h4><a href="http://brew.sh/">Homebrew</a> (<em>Mac</em> only)</h4>
             <p>Homebrew is a package manager - that basically means it handles the proper installation and configuration of many programs you'll use as a software developer. The following programs can be easily installed with it.</p>
             <ul>
               <li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git Version Control</a></li>
@@ -194,7 +223,7 @@
 
     <div id="advice">
     <hr><br>
-      <h2>Advice</h2>
+      <h2>Alumni Advice</h2>
         <p>A few blogs from alumni about their experiences and insights into your preparation.</p>
         <ul>
           <li><a href="http://www.bthehuman.com/journey-to-hack-reactor/">BtheHUMAN - Journey to Hack Reactor</a></li>
